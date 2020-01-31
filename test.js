@@ -10,7 +10,7 @@ function testMocha(num) {
 }
 
 describe("testMocha", function() {
-  it("should return 1", function() {
+  it("should return true when number is even", function() {
     testMocha(4).should.be.true;
   });
 });

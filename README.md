@@ -5,8 +5,9 @@ A supermarket built with Javascript, Node, Express, Mocha and Chai.
 ## Instructions
 
 1. Clone repositoiry
-2. npm install
-3. npm start
+2. npm install (installs dependancies)
+3. npm start (starts server)
+4. mocha test.js (runs tests)
 
 ## Resources Used
 
