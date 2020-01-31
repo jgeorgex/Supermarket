@@ -6,4 +6,9 @@ router.get("/", function(req, res, next) {
   res.render("index", { title: "Supermarket" });
 });
 
+/* GET goods. */
+router.get("/goods", function(req, res, next) {
+  res.render({ goodsInStock });
+});
+
 module.exports = router;
